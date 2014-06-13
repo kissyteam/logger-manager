@@ -1,0 +1,19 @@
+{
+  "name": "logger-manager",
+  "version": "0.10.0",
+  "description": "manage and generate logger which can log different log info",
+  "author": "yiminghe <yiminghe@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yiminghe/logger-manager"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "logger-manager"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiminghe/logger-manager/issues"
+  }
+}
