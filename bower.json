@@ -1,0 +1,13 @@
+{
+    "name": "logger-manager",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kissyteam/logger-manager.git"
+    },
+    "ignore": [
+        "**/*",
+        "!build/**/*"
+    ]
+}

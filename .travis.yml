@@ -1,0 +1,14 @@
+language: node_js
+notifications:
+  email:
+  - yiminghe@gmail.com
+node_js:
+- 0.1
+before_script:
+- node server &
+- npm install gulp bower mocha-phantomjs -g
+- bower install
+- phantomjs --version
+script:
+- npm test
+- npm cover

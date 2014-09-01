@@ -1,19 +1,50 @@
 {
-  "name": "logger-manager",
-  "version": "0.1.0",
-  "description": "manage and generate logger which can log different log info",
-  "author": "yiminghe <yiminghe@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yiminghe/logger-manager"
-  },
-  "keywords": [
-    "log",
-    "logger",
-    "logger-manager"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yiminghe/logger-manager/issues"
-  }
+    "name": "logger-manager",
+    "version": "1.0.0",
+    "description": "manage and generate logger which can log different log info",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kissyteam/logger-manager"
+    },
+    "keywords": [
+        "log",
+        "logger",
+        "logger-manager"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kissyteam/logger-manager/issues"
+    },
+    "devDependencies": {
+        "chai": "^1.9.1",
+        "gulp": "^3.8.7",
+        "gulp-clean": "^0.3.1",
+        "gulp-filter": "^1.0.0",
+        "gulp-footer": "^1.0.5",
+        "gulp-header": "^1.0.5",
+        "gulp-jscs": "^1.1.0",
+        "gulp-jshint": "^1.8.4",
+        "gulp-kclean": "^0.0.13",
+        "gulp-modulex": "^1.0.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-replace": "^0.4.0",
+        "gulp-uglify": "^0.3.1",
+        "gulp-util": "^3.0.0",
+        "jshint": "^2.5.5",
+        "jshint-stylish": "^0.4.0",
+        "mocha": "^1.21.4",
+        "precommit-hook": "^1.0.7",
+        "istanbul": "~0.2.10",
+        "coveralls": "~2.10.0",
+        "mocha-istanbul": "~0.2.0"
+    },
+    "precommit": [
+        "lint"
+    ],
+    "scripts": {
+        "lint": "gulp lint",
+        "test": "node ./node_modules/mocha/bin/mocha -R list tests/specs",
+        "cover": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha -- -R list test/spec/"
+    }
 }

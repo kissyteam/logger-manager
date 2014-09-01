@@ -18,15 +18,11 @@
     "node": true,
     "es3": true,
     "globals": {
-        "KISSY": false,
         "describe": false,
         "expect": false,
-        "runs": false,
         "beforeEach": false,
         "afterEach": false,
-        "waitsFor": false,
-        "it": false,
-        "waits": false,
-        "jasmine": false
+        "modulex": false,
+        "it": false
     }
 }
