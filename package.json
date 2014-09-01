@@ -45,6 +45,6 @@
     "scripts": {
         "lint": "gulp lint",
         "test": "node ./node_modules/mocha/bin/mocha -R list tests/specs",
-        "cover": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha -- -R list test/spec/"
+        "cover": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha -- -R list tests/specs/"
     }
 }

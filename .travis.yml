@@ -11,4 +11,4 @@ before_script:
 - phantomjs --version
 script:
 - npm test
-- npm cover
+- npm run-script cover
