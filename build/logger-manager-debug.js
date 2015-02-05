@@ -1,8 +1,4 @@
-/*
-Copyright 2014, logger-manager@1.0.2
-MIT Licensed
-build time: Thu, 16 Oct 2014 03:24:34 GMT
-*/
+//! Copyright 2015, kissy-logger-manager@1.0.2 MIT Licensed, build time: Thu, 05 Feb 2015 06:37:46 GMT 
 /*
 combined modules:
 logger-manager

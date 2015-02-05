@@ -1,5 +1,5 @@
 {
-  "name": "logger-manager",
+  "name": "kissy-logger-manager",
   "version": "1.0.2",
   "description": "manage and generate logger which can log different log info",
   "author": "yiminghe <yiminghe@gmail.com>",
